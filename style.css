@@ -339,10 +339,7 @@ body{
 .card3-video{
   width: 90%;
   height: 95%;
-  /* background-color: rgb(197, 172, 172); */
-  /* border-radius: 30px; */
   display: flex;
-  /* flex-direction: column; */
   justify-content:center ;
   align-items: center;
   position: relative;
@@ -368,6 +365,7 @@ body{
   align-items: center;
   color: white;
   position: absolute;
+  transition: linear 900ms;
 }
 
 .card3-content:hover{
